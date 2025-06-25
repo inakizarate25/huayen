@@ -1,0 +1,460 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #e1e1e1;
+  overflow-x: hidden;
+}
+/* ====== COMPONENTE: HEADER ====== */
+.header-wrapper {
+  width: 100%;
+  height: 800px;
+  background-image: url("../assets/images/banner_3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  overflow: hidden;
+}
+
+.header-container {
+  max-width: 1340px;
+  margin: 0 auto;
+  padding: 25px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.header-logo {
+  height: 25px;
+}
+
+.header-nav {
+  display: flex;
+  gap: 10px;
+}
+
+.header-link {
+  display: inline-block;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.header-link:hover {
+  background-color: white;
+  color: #0000bf;
+}
+
+/* ====== COMPONENTE: NOSOTROS ====== */
+.nosotros-wrapper {
+  background-color: #262424;
+  width: 100%;
+  overflow: hidden;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.nosotros-container {
+  max-width: 1340px;
+  margin: 0 auto;
+}
+
+.nosotros-heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  color: #fff;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.nosotros-frase {
+  font-family: "Radio Canada", serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  color: #fff;
+  padding-top: 30px;
+}
+
+.nosotros-imagen {
+  margin-top: 30px;
+}
+
+.nosotros-texto {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 40px;
+  letter-spacing: 1px;
+  color: #777;
+  max-width: 950px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.nosotros-boton {
+  display: inline-block;
+  margin-top: 20px;
+}
+/* ====== COMPONENTE: EXPERIENCIAS ====== */
+.experiencias-wrapper {
+  width: 100%;
+  background-color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.experiencias-titulo {
+  font-family: "Passion One", sans-serif;
+  font-weight: 700;
+  font-size: 85px;
+  line-height: 80px;
+  letter-spacing: 1px;
+  color: #3333ff;
+  margin-bottom: 20px;
+}
+
+.experiencias-descripcion {
+  font-family: "Roboto Slab", serif;
+  font-weight: 100;
+  font-size: 25px;
+  line-height: 35px;
+  color: #000;
+  margin-bottom: 40px;
+}
+
+.experiencias-contenido {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+
+.experiencias-img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+/* ====== COMPONENTE: TIENDA ====== */
+.tienda-wrapper {
+  width: 100%;
+  padding: 60px 20px 120px;
+  background-color: #e1e1e1;
+  text-align: center;
+}
+
+.tienda-cabecera {
+  margin-bottom: 60px;
+}
+
+.tienda-titulo {
+  font-family: "Passion One", sans-serif;
+  font-weight: 700;
+  font-size: 85px;
+  line-height: 80px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.tienda-descripcion {
+  font-family: "Roboto Slab", serif;
+  font-weight: 100;
+  font-size: 25px;
+  line-height: 35px;
+  color: #000;
+}
+
+.tienda-productos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.tienda-columna {
+  width: 100%;
+  max-width: 300px;
+}
+
+.tienda-img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.tienda-marcas {
+  display: block;
+  margin: 80px auto 0;
+  max-width: 100%;
+}
+/* ====== COMPONENTE: FOOTER ====== */
+.footer-wrapper {
+  width: 100%;
+  background-color: #262424;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.footer-logo {
+  width: 80px;
+}
+
+.footer-logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer-enlaces {
+  text-align: left;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+/* ====== COMPONENTE: BOTÓN PRINCIPAL ====== */
+.boton {
+  display: inline-block;
+  cursor: pointer;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  text-decoration: none;
+  letter-spacing: 2px;
+  border-radius: 10px;
+  color: white;
+  background-color: #3333ff;
+  border: none; /* 👈 elimina borde nativo */
+  outline: none; /* 👈 elimina contorno al enfocar */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.boton:hover {
+  background-color: white;
+  color: #0000bf;
+}
+/* ====== COMPONENTE: FOOTER ====== */
+.footer-wrapper {
+  width: 100%;
+  background-color: #262424;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.footer-logo {
+  width: 80px;
+}
+
+.footer-logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 10px;
+}
+
+.footer-link {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-link:hover {
+  color: #999;
+}
+/* ====== PÁGINA: EXPERIENCIA DETALLE ====== */
+.experiencia-detalle-wrapper {
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.experiencia-detalle-contenido {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.experiencia-detalle-img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+/* ====== COMPONENTE: NAVBAR ====== */
+.navbar {
+  width: 100%;
+  background-color: rgba(38, 36, 36, 0.85);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.navbar-container {
+  max-width: 1340px;
+  margin: 0 auto;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.navbar-logo {
+  height: 25px;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-link {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-link:hover {
+  background-color: white;
+  color: #0000bf;
+}
+
+/* ====== COMPONENTE: HERO ====== */
+.hero {
+  width: 100%;
+  height: 800px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+/* ====== COMPONENTE: BOTÓN SCROLL TO TOP ====== */
+.scroll-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #3333ff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  z-index: 1000;
+  transition: background-color 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.scroll-to-top:hover {
+  background-color: #0000bf;
+}
+/* ====== PÁGINA: CONTACTO ====== */
+.contacto-wrapper {
+  background-color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+  height: 100%;
+}
+
+.contacto-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contacto-titulo {
+  font-family: "Passion One", sans-serif;
+  font-size: 60px;
+  color: #3333ff;
+  margin-bottom: 20px;
+}
+
+.contacto-descripcion {
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+  color: #444;
+  margin-bottom: 40px;
+}
+
+.contacto-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contacto-form input,
+.contacto-form textarea {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  resize: vertical;
+}
+.navbar-logo-link:hover .navbar-logo {
+  opacity: 0.8;
+}

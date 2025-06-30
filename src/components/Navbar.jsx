@@ -3,7 +3,21 @@ import { Link } from "react-router-dom";
 import "../styles/huayen.css";
 import logo from "../assets/images/marca_logo.png";
 
+import { useLocation, useNavigate } from "react-router-dom";
+
 export default function Navbar() {
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  const handleScrollTo = (id) => {
+    if (location.pathname === "/") {
+      const element = document.getElementById(id);
+      if (element) element.scrollIntoView({ behavior: "smooth" });
+    } else {
+      navigate(`/?scrollTo=${id}`);
+    }
+  };
+
   return (
     <nav className="navbar">
       <div className="navbar-container">
@@ -11,23 +25,32 @@ export default function Navbar() {
           <img src={logo} alt="Huayen Logo" className="navbar-logo" />
         </a>
         <div className="navbar-links">
-          <a href="#nosotros" className="navbar-link">
+          <button
+            onClick={() => handleScrollTo("nosotros")}
+            className="navbar-link"
+          >
             Nosotros
-          </a>
-          <a href="#experiencias" className="navbar-link">
+          </button>
+          <button
+            onClick={() => handleScrollTo("experiencias")}
+            className="navbar-link"
+          >
             Experiencias
-          </a>
-          <Link
-            to="https://www.huayenflyfishing.com.ar"
+          </button>
+          <a
+            href="https://www.huayenflyfishing.com.ar"
             className="navbar-link"
             target="_blank"
             rel="noopener noreferrer"
           >
             Tienda
-          </Link>
-          <a href="#contacto" className="navbar-link">
-            Contacto
           </a>
+          <button
+            onClick={() => handleScrollTo("contacto")}
+            className="navbar-link"
+          >
+            Contacto
+          </button>
         </div>
       </div>
     </nav>

@@ -2,6 +2,7 @@
 import { Link } from "react-router-dom";
 import "../styles/huayen.css";
 import logo from "../assets/images/marca_logo.png";
+import { Analytics } from "@vercel/analytics/react";
 
 import { useLocation, useNavigate } from "react-router-dom";
 
@@ -30,12 +31,14 @@ export default function Navbar() {
             className="navbar-link"
           >
             Nosotros
+            <Analytics />
           </button>
           <button
             onClick={() => handleScrollTo("experiencias")}
             className="navbar-link"
           >
             Experiencias
+            <Analytics />
           </button>
           <a
             href="https://www.huayenflyfishing.com.ar"
@@ -44,12 +47,14 @@ export default function Navbar() {
             rel="noopener noreferrer"
           >
             Tienda
+            <Analytics />
           </a>
           <button
             onClick={() => handleScrollTo("contacto")}
             className="navbar-link"
           >
             Contacto
+            <Analytics />
           </button>
         </div>
       </div>

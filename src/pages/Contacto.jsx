@@ -3,6 +3,7 @@ import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "../styles/huayen.css";
 import { ToastContainer, toast } from "react-toastify";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function Contacto() {
   const form = useRef();
@@ -87,6 +88,7 @@ export default function Contacto() {
           theme="dark"
         />
       </section>
+      <Analytics />
     </>
   );
 }

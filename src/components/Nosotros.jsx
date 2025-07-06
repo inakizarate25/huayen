@@ -1,6 +1,7 @@
 // src/components/Nosotros.jsx
 import "../styles/huayen.css";
 import fotos from "../assets/images/fotos.png";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function Nosotros() {
   return (
@@ -33,6 +34,7 @@ export default function Nosotros() {
 
         <a href="#contacto">
           <div className="nosotros-boton boton">Contacto</div>
+          <Analytics />
         </a>
       </div>
     </section>

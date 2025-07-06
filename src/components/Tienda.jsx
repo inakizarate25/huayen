@@ -5,6 +5,7 @@ import anteojos from "../assets/images/placa_anteojos.png";
 import canas from "../assets/images/placa_canas.png";
 import lineas from "../assets/images/placa_lineas.png";
 import marcas from "../assets/images/marcas.png";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function Tienda() {
   return (
@@ -21,6 +22,7 @@ export default function Tienda() {
           <img className="tienda-img" src={reels} alt="Reels" />
           <a href="http://www.huayenflyfishing.com.ar">
             <div className="boton">Visitar la Tienda</div>
+            <Analytics />
           </a>
         </div>
 

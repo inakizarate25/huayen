@@ -1,6 +1,7 @@
 // src/components/Experiencias.jsx
 import "../styles/huayen.css";
 import chinook from "../assets/images/chinook_3.png";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function Experiencias() {
   return (
@@ -12,6 +13,7 @@ export default function Experiencias() {
       <div className="experiencias-contenido">
         <a href="/experiencia">
           <img className="experiencias-img" src={chinook} alt="Chinook" />
+          <Analytics />
         </a>
       </div>
     </section>

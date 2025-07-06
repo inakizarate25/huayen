@@ -6,7 +6,6 @@ import Hero from "../components/Hero";
 import Nosotros from "../components/Nosotros";
 import Experiencias from "../components/Experiencias";
 import Tienda from "../components/Tienda";
-import Footer from "../components/Footer";
 import ScrollToTopButton from "../components/ScrollToTopButton";
 import Contacto from "./Contacto";
 
@@ -34,7 +33,6 @@ export default function Inicio() {
       <Experiencias />
       <Tienda />
       <Contacto />
-      <Footer />
       <ScrollToTopButton />
     </>
   );

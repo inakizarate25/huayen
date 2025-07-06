@@ -38,21 +38,24 @@ nav {
 }
 
 .nav-link {
-  color: white;
-  background: none;
-  border: none;
-  font-size: 20px;
-  padding: 12px;
   font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
   text-transform: uppercase;
-  cursor: pointer;
-  width: 100%;
-  text-align: center;
-  transition: background-color 0.3s;
+  color: white;
   text-decoration: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 10px;
+  transition: background-color 0.3s, color 0.3s;
+  display: inline-block;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 
-.nav-link:hover {
+.navbar-link:hover {
   background-color: white;
   color: #0000bf;
 }

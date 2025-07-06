@@ -1,6 +1,6 @@
 // src/pages/ExperienciaDetalle.jsx
-import "../styles/huayen.css";
-import experienciaImg from "../assets/images/expereincia_2.png";
+import "./expdetalle.css";
+import experienciaImg from "../../assets/images/expereincia_2.png";
 
 export default function ExperienciaDetalle() {
   return (

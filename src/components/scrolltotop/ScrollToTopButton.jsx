@@ -1,7 +1,7 @@
 // src/components/ScrollToTopButton.jsx
 import { useEffect, useState } from "react";
-import "../styles/huayen.css";
-import arrow from "../assets/arrow-up.svg";
+import "./scrolltotop.css";
+import arrow from "../../assets/arrow-up.svg";
 
 export default function ScrollToTopButton() {
   const [visible, setVisible] = useState(false);

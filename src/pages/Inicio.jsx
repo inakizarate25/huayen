@@ -1,13 +1,12 @@
 // src/pages/Inicio.jsx
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
-import Nosotros from "../components/Nosotros";
-import Experiencias from "../components/Experiencias";
-import Tienda from "../components/Tienda";
-import ScrollToTopButton from "../components/ScrollToTopButton";
-import Contacto from "./Contacto";
+import Hero from "../components/hero/Hero";
+import Nosotros from "../components/nosotros/Nosotros";
+import Experiencias from "../components/experiencias/Experiencias";
+import Tienda from "../components/tienda/Tienda";
+import ScrollToTopButton from "../components/scrolltotop/ScrollToTopButton";
+import Contacto from "../components/contacto/Contacto";
 
 export default function Inicio() {
   const location = useLocation();
@@ -27,7 +26,6 @@ export default function Inicio() {
 
   return (
     <>
-      <Navbar />
       <Hero />
       <Nosotros />
       <Experiencias />

@@ -1,0 +1,19 @@
+.experiencia-detalle-wrapper {
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.experiencia-detalle-contenido {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.experiencia-detalle-img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}

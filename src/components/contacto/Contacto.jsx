@@ -1,7 +1,7 @@
 // src/pages/Contacto.jsx
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import "../styles/huayen.css";
+import "./contacto.css";
 import { ToastContainer, toast } from "react-toastify";
 import { Analytics } from "@vercel/analytics/react";
 

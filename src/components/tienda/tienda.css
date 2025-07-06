@@ -1,0 +1,71 @@
+.tienda-wrapper {
+  padding: 60px 20px 120px;
+  background-color: #e1e1e1;
+  text-align: center;
+}
+
+.tienda-cabecera {
+  margin-bottom: 60px;
+}
+
+.tienda-titulo {
+  font-family: "Passion One", sans-serif;
+  font-weight: 700;
+  font-size: 85px;
+  line-height: 80px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.tienda-descripcion {
+  font-family: "Roboto Slab", serif;
+  font-weight: 100;
+  font-size: 25px;
+  line-height: 35px;
+  color: #000;
+}
+
+.tienda-productos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.tienda-columna {
+  width: 100%;
+  max-width: 300px;
+}
+
+.tienda-img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.tienda-marcas {
+  display: block;
+  margin: 80px auto 0;
+  max-width: 100%;
+}
+@media (max-width: 768px) {
+  .tienda-wrapper {
+    padding: 40px 10px 80px;
+  }
+
+  .tienda-titulo {
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  .tienda-descripcion {
+    font-size: 18px;
+    line-height: 28px;
+    padding: 0 10px;
+  }
+
+  .tienda-marcas {
+    margin-top: 40px;
+  }
+}

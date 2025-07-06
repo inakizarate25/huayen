@@ -1,0 +1,68 @@
+.experiencias-wrapper {
+  background-color: #ffff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.experiencias-titulo {
+  font-family: "Passion One", sans-serif;
+  font-weight: 700;
+  font-size: 85px;
+  line-height: 80px;
+  letter-spacing: 1px;
+  color: #3333ff;
+  margin-bottom: 20px;
+}
+
+.experiencias-descripcion {
+  font-family: "Roboto Slab", serif;
+  font-weight: 100;
+  font-size: 25px;
+  line-height: 35px;
+  color: #000;
+  margin-bottom: 40px;
+}
+
+.experiencias-contenido {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+
+.experiencias-img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .experiencias-wrapper {
+    padding: 100px 20px;
+    text-align: center;
+  }
+
+  .experiencias-titulo {
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  .experiencias-descripcion {
+    font-size: 18px;
+    line-height: 28px;
+    padding: 0 10px;
+  }
+
+  .experiencias-wrapper {
+    padding: 40px 10px;
+  }
+  .experiencias-img {
+    width: 90vw;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+}

@@ -1,6 +1,6 @@
 // src/components/Hero.jsx
-import "../styles/huayen.css";
-import banner from "../assets/images/banner_3.jpg";
+import "./hero.css";
+import banner from "../../assets/images/banner_3.jpg";
 
 export default function Hero() {
   return (

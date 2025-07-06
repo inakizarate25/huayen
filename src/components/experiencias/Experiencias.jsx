@@ -1,6 +1,8 @@
 // src/components/Experiencias.jsx
-import "../styles/huayen.css";
-import chinook from "../assets/images/chinook_3.png";
+import "./experiencias.css";
+import chinookDesktop from "../../assets/images/chinook_3.png";
+import chinookMobile from "../../assets/images/chinook_m.png";
+
 import { Analytics } from "@vercel/analytics/react";
 
 export default function Experiencias() {
@@ -12,7 +14,14 @@ export default function Experiencias() {
       </p>
       <div className="experiencias-contenido">
         <a href="/experiencia">
-          <img className="experiencias-img" src={chinook} alt="Chinook" />
+          <picture>
+            <source media="(max-width: 768px)" srcSet={chinookMobile} />
+            <img
+              className="experiencias-img"
+              src={chinookDesktop}
+              alt="Chinook"
+            />
+          </picture>
           <Analytics />
         </a>
       </div>

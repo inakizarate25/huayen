@@ -12,8 +12,8 @@ export default function Contacto() {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_g89n49m", "template_c3dx39l", form.current, {
-        publicKey: "VUn7__VIF9vDyQm8D",
+      .sendForm("service_yb6u89g", "template_ggu6pnk", form.current, {
+        publicKey: "5STvIpANQT1ptqDkS",
       })
       .then(
         () => {

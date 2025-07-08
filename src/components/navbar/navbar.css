@@ -4,7 +4,6 @@
   justify-content: space-between;
   height: 80px;
   padding: 0 30px;
-  background-color: rgba(38, 36, 36);
   z-index: 100;
 }
 
@@ -42,7 +41,7 @@ nav {
   font-weight: 700;
   font-size: 13px;
   text-transform: uppercase;
-  color: white;
+  color: #ffffff;
   text-decoration: none;
   padding: 10px 20px;
   margin-left: 10px;
@@ -55,15 +54,14 @@ nav {
   cursor: pointer;
 }
 
-.navbar-link:hover {
-  background-color: white;
+.nav-link:hover {
   color: #0000bf;
 }
 
 .nav-btn {
   background: transparent;
   border: none;
-  color: white;
+  color: #262424;
   font-size: 26px;
   cursor: pointer;
   z-index: 200;
@@ -86,6 +84,7 @@ nav {
     padding: 10px 15px;
     width: auto;
     border: none;
+    color: #262424;
   }
 
   .nav-btn {

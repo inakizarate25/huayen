@@ -1,11 +1,11 @@
 // src/components/Tienda.jsx
 import "./tienda.css";
-import reels from "../../assets/images/placa_reels.png";
-import anteojos from "../../assets/images/placa_anteojos.png";
-import canas from "../../assets/images/placa_canas.png";
-import lineas from "../../assets/images/placa_lineas.png";
-import marcasDesktop from "../../assets/images/marcas.png";
-import marcasMobile from "../../assets/images/marcas_m.png";
+import reels from "../../assets/images/placa_reels.webp";
+import anteojos from "../../assets/images/placa_anteojos.webp";
+import canas from "../../assets/images/placa_canas.webp";
+import lineas from "../../assets/images/placa_lineas.webp";
+import marcasDesktop from "../../assets/images/marcas.webp";
+import marcasMobile from "../../assets/images/marcas_m.webp";
 
 import { Analytics } from "@vercel/analytics/react";
 import { useEffect, useState } from "react";

@@ -2,7 +2,7 @@ import { useRef, useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useLocation, useNavigate } from "react-router-dom";
 import "./navbar.css";
-import logo from "../../assets/images/marca_logo.png";
+import logo from "../../assets/images/marca_logo.webp";
 
 function Navbar() {
   const navRef = useRef();
@@ -30,9 +30,12 @@ function Navbar() {
 
   return (
     <header className="navbar-hy">
-      <a href="/" className="logo" onClick={() => closeNavbar()}>
-        <img src={logo} alt="Huayen Logo" />
-      </a>
+      <h1>
+        <a href="/" className="logo" onClick={() => closeNavbar()}>
+          <img src={logo} alt="Huayen Logo" />
+        </a>
+      </h1>
+
       <nav ref={navRef}>
         <button onClick={() => closeNavbar("nosotros")} className="nav-link">
           Nosotros

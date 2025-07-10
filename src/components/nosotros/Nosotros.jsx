@@ -1,6 +1,6 @@
 // src/components/Nosotros.jsx
 import "./nosotros.css";
-import fotos from "../../assets/images/fotos.png";
+import fotos from "../../assets/images/fotos.webp";
 import { Analytics } from "@vercel/analytics/react";
 
 export default function Nosotros() {

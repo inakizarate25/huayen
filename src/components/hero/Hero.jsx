@@ -1,6 +1,6 @@
 // src/components/Hero.jsx
 import "./hero.css";
-import banner from "../../assets/images/banner_3.jpg";
+import banner from "../../assets/images/banner_3.webp";
 
 export default function Hero() {
   return (

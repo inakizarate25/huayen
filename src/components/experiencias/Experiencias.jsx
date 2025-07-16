@@ -1,9 +1,9 @@
 // src/components/Experiencias.jsx
 import "./experiencias.css";
-import chinookDesktop from "../../assets/images/chinook_3.webp";
-import chinookMobile from "../../assets/images/exp_chinook_m.webp";
-import esquinaDesktop from "../../assets/images/exp_esquina.webp";
-import esquinaMobile from "../../assets/images/exp_esquina_m.webp";
+import chinookDesktop from "../../assets/images/chinook_3.png";
+import chinookMobile from "../../assets/images/exp_chinook_m.png";
+import esquinaDesktop from "../../assets/images/exp_esquina.png";
+import esquinaMobile from "../../assets/images/exp_esquina_m.png";
 
 function ExpCard({ imagenMobile, imagenDesktop, alt, link }) {
   return (

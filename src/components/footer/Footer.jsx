@@ -1,5 +1,5 @@
 import { useLocation, useNavigate } from "react-router-dom";
-import sello from "../../assets/images/marca_sello.webp";
+import sello from "../../assets/images/marca_sello.png";
 import "./footer.css";
 
 export default function Footer() {

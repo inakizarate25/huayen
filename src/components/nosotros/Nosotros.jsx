@@ -10,7 +10,7 @@ export default function Nosotros() {
         <span className="nosotros-heading">Nosotros</span>
 
         <div className="nosotros-frase">
-          Conectamos a los <br />
+          Conectamos <br />
           aficionados al "fly fishing"
           <br />
           con lugares y experiencias <br />

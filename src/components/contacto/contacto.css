@@ -6,6 +6,7 @@
 }
 
 .contacto-container {
+  width: 90vw;
   max-width: 600px;
   margin: 0 auto;
 }
@@ -46,7 +47,10 @@
   .contacto-wrapper {
     padding: 60px 10px;
   }
-
+  .contacto-container {
+    max-width: 350px;
+    margin: 0 auto;
+  }
   .contacto-titulo {
     font-size: 38px;
     line-height: 42px;

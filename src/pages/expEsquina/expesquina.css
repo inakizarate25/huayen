@@ -5,13 +5,14 @@
 }
 
 .experiencia-detalle-contenido {
-  max-width: 920px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
 .experiencias-img {
   width: 100%;
+  max-width: 1100px;
   height: auto;
   display: block;
-  margin: 0px auto 20px;
+  margin: 28px auto;
 }

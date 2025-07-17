@@ -6,6 +6,10 @@
 
 .tienda-cabecera {
   margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .tienda-titulo {
@@ -57,6 +61,9 @@
   .tienda-titulo {
     font-size: 60px;
     line-height: 45px;
+    text-wrap: wrap;
+    max-width: 250px;
+    text-align: center;
   }
 
   .tienda-descripcion {

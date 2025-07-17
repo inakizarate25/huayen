@@ -16,3 +16,77 @@
   display: block;
   margin: 28px auto;
 }
+.contacto-wrapper-e {
+  background-color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+  height: 100%;
+}
+
+.contacto-container-e {
+  width: 90vw;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contacto-titulo-e {
+  font-family: "Passion One", sans-serif;
+  font-size: 60px;
+  color: #3333ff;
+  margin-bottom: 20px;
+}
+
+.contacto-descripcion-e {
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+  color: #444;
+  margin-bottom: 40px;
+}
+
+.contacto-form-e {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contacto-form-e input,
+.contacto-form-e textarea {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  resize: vertical;
+}
+.navbar-logo-link:hover .navbar-logo {
+  opacity: 0.8;
+}
+@media (max-width: 768px) {
+  .contacto-wrapper-e {
+    padding: 60px 10px;
+  }
+  .contacto-container-e {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+  .contacto-titulo-e {
+    font-size: 38px;
+    line-height: 42px;
+  }
+
+  .contacto-descripcion-e {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  .contacto-form-e input,
+  .contacto-form-e textarea {
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  .boton {
+    font-size: 14px;
+    padding: 12px;
+  }
+}

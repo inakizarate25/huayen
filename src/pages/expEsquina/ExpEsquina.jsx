@@ -2,8 +2,6 @@ import "./expesquina.css";
 import exp_esquina_titulo from "../../assets/images/exp_esquina_titulo.png";
 import exp_esquina_full_desktop from "../../assets/images/exp_esquina_full.png";
 import exp_esquina_full_mobile from "../../assets/images/exp_esquina_full_m.png";
-import exp_esquina_base_desktop from "../../assets/images/exp_esquina_base.png";
-import exp_esquina_base_mobile from "../../assets/images/exp_esquina_base_m.png";
 import exp_esquina_foto_desktop from "../../assets/images/exp_esquina_foto.png";
 import exp_esquina_foto_mobile from "../../assets/images/exp_esquina_foto_m.png";
 import { useRef } from "react";
@@ -62,11 +60,11 @@ export default function ExpEsquina() {
           alt="esquina"
         />
       </picture>
-      <section className="contacto-wrapper" id="contacto">
-        <div className="contacto-container">
-          <h2 className="contacto-titulo">CONSULTAR TARIFAS</h2>
+      <section className="contacto-wrapper-e" id="contacto">
+        <div className="contacto-container-e">
+          <h2 className="contacto-titulo-e">CONSULTAR TARIFAS</h2>
 
-          <form className="contacto-form" ref={form} onSubmit={sendEmail}>
+          <form className="contacto-form-e" ref={form} onSubmit={sendEmail}>
             <input
               type="text"
               placeholder="Nombre completo"

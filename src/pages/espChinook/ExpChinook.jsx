@@ -73,11 +73,11 @@ export default function ExpChinook() {
           alt="Chinook"
         />
       </picture>
-      <section className="contacto-wrapper" id="contacto">
-        <div className="contacto-container">
-          <h2 className="contacto-titulo">CONSULTAR TARIFAS</h2>
+      <section className="contacto-wrapper-e" id="contacto">
+        <div className="contacto-container-e">
+          <h2 className="contacto-titulo-e">CONSULTAR TARIFAS</h2>
 
-          <form className="contacto-form" ref={form} onSubmit={sendEmail}>
+          <form className="contacto-form-e" ref={form} onSubmit={sendEmail}>
             <input
               type="text"
               placeholder="Nombre completo"
